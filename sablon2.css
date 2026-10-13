@@ -1,0 +1,16 @@
+#BAŞLIK {
+    color: blueviolet;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#metin{
+    color: aquamarine;
+    font-size: large;
+}
+.ornekclass{
+    color: palevioletred;
+    font-size: x-large;
+    text-align: right;
+}
+h { text-decoration: overline;}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function Uyarı(){
+            alert ("bu bir uyarıdır ");
+        }
+        function Toplama(sayı1,sayı2){
+            var toplam = sayı1+sayı2;
+            return toplam;
+            document.write("Toplam:  " + Toplama(5,10));
+        }
+    </script>
+    <form>
+        <input type="button" value="uyarı ver " onclick="Uyarı()">
+        <input type="button" value="sayıları topla" onclick="document.write(Toplama(5,10))">
+    </form>
+</head>
+<body>
+    
+</body>
+</html>

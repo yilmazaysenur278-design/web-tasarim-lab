@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+    var time = new Date(). getHours();
+    if (time<10){
+        document.write("günaydın");
+    }
+    else if (time<17){
+        document.write("iyi günler ");
+    }
+    else {
+        document.write("iyi geceler ");
+    }
+</script>
+
+<script>
+    var günler = ["pazar","pazartesi","salı","çarşamba","perşembe","cuma","cumartesi"];
+    switch (new Date().getDay()){
+        case 0 : document.write("<br> Bugün günlerden  " + günler[0] );
+        break;
+
+         case 1: document.write("<br> Bugün günlerden  " + günler[1] );
+        break;
+
+         case 2 : document.write("<br> Bugün günlerden  " + günler[2] );
+        break;
+
+         case 3 : document.write("<br> Bugün günlerden  " + günler[3] );
+        break;
+
+         case 4 : document.write("<br> Bugün günlerden  " + günler[4] );
+        break;
+
+         case 5 : document.write("<br> Bugün günlerden  " + günler[5] );
+        break;
+
+         case 6 : document.write("<br> Bugün günlerden  " + günler[6] );
+        break;
+        
+        
+
+    }
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>

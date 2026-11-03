@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+
+    for( i=0; i<10; i++){
+        if (i==5){
+            //break;
+            continue;
+
+        }
+
+        document.write("<br>"+"sayı"+i);
+
+    }
+    var j=0;
+
+    while(j<10){
+        document.write("<br>"+j);
+        j++
+    }
+
+    k = 0;
+    do{
+        document.write("<br>"+"sayı"+k);
+        k++
+
+    } while ( k<10);
+
+    var ArabaListem = ["BMW","Mercedes","Volvo"];
+    var ArabaListem2= new Array();
+    ArabaListem2[0]="totoya";
+    ArabaListem2[1]= "peugeot";
+    ArabaListem2[2]= "tofaş";
+    for(x = 0; x< ArabaListem.length; x++){
+        document.write("<br>"+ArabaListem[x]);
+
+    }
+    document.write("<br>" +"--------------");
+    for(x in ArabaListem2){
+        document.write("<br>"+ArabaListem2[x]);
+
+    }
+
+
+</script>
+<body>
+    
+</body>
+</html>
